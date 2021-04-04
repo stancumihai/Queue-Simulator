@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.stancumihai.controller.PrimaryController">
+    <Pane prefHeight="490.0" prefWidth="199.0">
+        <ImageView fitHeight="768.0" fitWidth="200.0" pickOnBounds="true">
+            <Image url="@4.jpg" />
+        </ImageView>
+    </Pane>
+    <GridPane fx:id="mainProgramme" hgap="10.0" prefHeight="768.0" prefWidth="1300.0" vgap="10.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.00000762939453" minWidth="10.0" prefWidth="79.00000762939453" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="212.40001525878907" minWidth="10.0" prefWidth="186.40001525878907" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="388.79999999999995" minWidth="10.0" prefWidth="190.39998474121091" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="293.00000000000006" minWidth="0.7999999999999545" prefWidth="104.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="293.00000000000006" minWidth="10.0" prefWidth="104.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="293.00000000000006" minWidth="10.0" prefWidth="104.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="106.39999999999999" minHeight="10.0" prefHeight="73.2" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="153.6" minHeight="10.0" prefHeight="62.8" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="114.99999999999997" minHeight="1.4000000000000057" prefHeight="48.400000000000006" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="121.39999999999998" minHeight="0.0" prefHeight="52.599999999999994" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="152.20001525878905" minHeight="0.0" prefHeight="53.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="169.39999999999998" minHeight="0.0" prefHeight="55.19999999999999" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="169.39999999999998" minHeight="10.0" prefHeight="50.59996948242184" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="169.39999999999998" minHeight="10.0" prefHeight="54.99999999999994" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="187.0" minHeight="0.0" prefHeight="98.79999999999995" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="151.5999999999999" minHeight="10.0" prefHeight="27.600000000000023" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="95.60000000000002" minHeight="10.0" prefHeight="43.799999999999955" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <padding>
+            <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+        </padding>
+
+        <stylesheets>
+            <URL value="@Login.css" />
+        </stylesheets>
+        <Text fx:id="titleText" strokeType="OUTSIDE" strokeWidth="0.0" text="     Queue Simulator" wrappingWidth="957.1367645263672" GridPane.columnIndex="2" GridPane.columnSpan="2">
+            <font>
+                <Font name="Tahoma" size="50.0" />
+            </font>
+        </Text>
+        <HBox alignment="CENTER_LEFT" prefHeight="26.0" prefWidth="161.0" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="8" />
+        <HBox alignment="BOTTOM_CENTER" prefHeight="38.0" prefWidth="320.0" GridPane.columnSpan="3" GridPane.rowIndex="9">
+            <Label prefHeight="30.0" prefWidth="631.0" text="                                        Results of Simulation">
+                <font>
+                    <Font name="System Bold" size="20.0" />
+                </font>
+            </Label>
+        </HBox>
+        <VBox GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2">
+            <Label prefHeight="30.0" prefWidth="511.0" text="                     LOG OF EVENTS">
+                <font>
+                    <Font name="System Bold" size="20.0" />
+                </font>
+            </Label>
+        </VBox>
+        <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+            <Label prefHeight="27.0" prefWidth="77.0" text="QUEUES">
+                <font>
+                    <Font name="System Bold" size="18.0" />
+                </font>
+            </Label>
+        </HBox>
+        <HBox alignment="CENTER_RIGHT" prefHeight="72.0" prefWidth="174.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+            <Label prefHeight="27.0" prefWidth="125.0" text="          Clients">
+                <font>
+                    <Font name="System Bold" size="18.0" />
+                </font>
+            </Label>
+        </HBox>
+        <Spinner fx:id="clientsSpinner" prefHeight="40.0" prefWidth="150.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+        <Spinner fx:id="minimArrTimeSpinner" prefHeight="40.0" prefWidth="150.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+        <Spinner fx:id="simTimeSpinner" prefHeight="40.0" prefWidth="150.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+        <Spinner fx:id="maxArrTimeSpinner" layoutX="522.0" layoutY="251.0" prefHeight="40.0" prefWidth="150.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+        <Spinner fx:id="minServiceTimeSpinner" layoutX="522.0" layoutY="292.0" prefHeight="40.0" prefWidth="150.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+        <HBox alignment="CENTER_RIGHT" GridPane.columnIndex="4" GridPane.rowIndex="5">
+            <Label contentDisplay="TOP" prefHeight="27.0" prefWidth="194.0" text="   Minim Arrival Time">
+                <font>
+                    <Font name="System Bold" size="18.0" />
+                </font>
+            </Label>
+        </HBox>
+        <HBox alignment="CENTER_RIGHT" GridPane.columnIndex="4" GridPane.rowIndex="6">
+            <Label contentDisplay="TOP" prefHeight="27.0" prefWidth="194.0" text="   Max Arrival Time">
+                <font>
+                    <Font name="System Bold" size="18.0" />
+                </font>
+            </Label>
+        </HBox>
+        <HBox alignment="CENTER_RIGHT" GridPane.columnIndex="4" GridPane.rowIndex="7">
+            <Label contentDisplay="TOP" prefHeight="27.0" prefWidth="194.0" text="   Minim Service Time">
+                <font>
+                    <Font name="System Bold" size="18.0" />
+                </font>
+            </Label>
+        </HBox>
+        <Spinner fx:id="queuesSpinner" prefHeight="40.0" prefWidth="150.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+        <HBox alignment="CENTER" prefHeight="38.0" prefWidth="86.0" GridPane.columnIndex="4" GridPane.columnSpan="2">
+            <Button fx:id="startButton" mnemonicParsing="false" onAction="#startButton" prefHeight="50.0" prefWidth="100.0" text="Start">
+                <font>
+                    <Font size="16.0" />
+                </font>
+                <HBox.margin>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                </HBox.margin>
+            </Button>
+            <Button fx:id="stopButton" mnemonicParsing="false" onAction="#stopButton" prefHeight="50.0" prefWidth="100.0" text="Stop">
+                <font>
+                    <Font size="16.0" />
+                </font>
+                <HBox.margin>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                </HBox.margin>
+            </Button>
+            <Button fx:id="clearButton" mnemonicParsing="false" onAction="#clearButton" prefHeight="50.0" prefWidth="100.0" text="Clear">
+                <font>
+                    <Font size="16.0" />
+                </font>
+                <HBox.margin>
+                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                </HBox.margin>
+            </Button>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="77.0" prefWidth="618.0" GridPane.columnSpan="3" GridPane.rowIndex="1">
+            <Label prefHeight="18.0" prefWidth="94.0" text="Progress">
+                <font>
+                    <Font name="Verdana Bold" size="14.0" />
+                </font>
+                <HBox.margin>
+                    <Insets />
+                </HBox.margin>
+            </Label>
+            <ProgressBar fx:id="progressBar" prefHeight="18.0" prefWidth="322.0" progress="0.0">
+                <padding>
+                    <Insets right="5.0" />
+                </padding>
+            </ProgressBar>
+            <ProgressIndicator fx:id="progressIndicator" prefHeight="58.0" prefWidth="61.0" progress="0.0">
+                <padding>
+                    <Insets left="5.0" right="5.0" />
+                </padding>
+            </ProgressIndicator>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="76.0" prefWidth="202.0" GridPane.columnIndex="5" GridPane.rowIndex="9" GridPane.rowSpan="2">
+            <Button fx:id="changeToSecondaryButton" mnemonicParsing="false" onAction="#changeToSecondary" prefHeight="64.0" prefWidth="129.0" text="Secondary Page">
+                <font>
+                    <Font size="16.0" />
+                </font>
+            </Button>
+        </HBox>
+        <TextArea fx:id="resultTextField" editable="false" prefHeight="38.0" prefWidth="70.0" GridPane.columnSpan="4" GridPane.rowIndex="10" />
+        <HBox alignment="CENTER_RIGHT" layoutX="875.0" layoutY="255.0" prefHeight="33.0" prefWidth="216.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+            <Label prefHeight="27.0" prefWidth="207.0" text="      Simulation Time">
+                <font>
+                    <Font name="System Bold" size="18.0" />
+                </font>
+            </Label>
+        </HBox>
+        <HBox GridPane.columnIndex="5" GridPane.rowIndex="8">
+            <Spinner fx:id="maxServiceTimeSpinner" prefHeight="40.0" prefWidth="150.0" />
+        </HBox>
+        <HBox alignment="TOP_RIGHT" layoutX="875.0" layoutY="538.0" GridPane.columnIndex="4" GridPane.rowIndex="8">
+            <Label contentDisplay="TOP" prefHeight="27.0" prefWidth="194.0" text="   Max Service Time">
+                <font>
+                    <Font name="System Bold" size="18.0" />
+                </font>
+            </Label>
+        </HBox>
+        <Button fx:id="initButton" mnemonicParsing="false" onAction="#initButton" prefHeight="48.0" prefWidth="90.0" text="Init" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <ScrollPane GridPane.columnSpan="4" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.rowSpan="6" GridPane.vgrow="ALWAYS">
+            <content>
+                <GridPane fx:id="gridPaneScrollPane" hgap="10.0" prefHeight="467.0" prefWidth="200.0" vgap="10.0">
+                    <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="30.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="-Infinity" minHeight="30.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="1.7976931348623157E308" minHeight="30.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="25.399999999999977" minHeight="30.0" prefHeight="24.399999999999977" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="49.39996948242185" minHeight="30.0" prefHeight="36.39999999999998" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="32.60000000000002" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="42.20004882812498" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="42.20004882812498" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints />
+                    </rowConstraints>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                    <children><FlowPane fx:id="waitingLine" hgap="10.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="99.0" vgap="10.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding></FlowPane>
+                        <FlowPane fx:id="flowPane1" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <FlowPane fx:id="flowPane2" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <FlowPane fx:id="flowPane3" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <FlowPane fx:id="flowPane4" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <FlowPane fx:id="flowPane5" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <FlowPane fx:id="flowPane6" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <FlowPane fx:id="flowPane7" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                        <FlowPane fx:id="flowPane8" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                        <FlowPane fx:id="flowPane9" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                        <FlowPane fx:id="flowPane10" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                        <FlowPane fx:id="flowPane11" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                        <FlowPane fx:id="flowPane12" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+                        <FlowPane fx:id="flowPane13" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+                        <FlowPane fx:id="flowPane14" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+                        <FlowPane fx:id="flowPane15" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+                        <FlowPane fx:id="flowPane16" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+                        <FlowPane fx:id="flowPane17" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="17" />
+                        <FlowPane fx:id="flowPane18" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="18" />
+                        <FlowPane fx:id="flowPane19" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="19" />
+                        <FlowPane fx:id="flowPane20" hgap="5.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0" vgap="5.0" GridPane.columnIndex="1" GridPane.rowIndex="20">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding></FlowPane>
+                  <Label fx:id="waitingLineLabel" prefHeight="54.0" prefWidth="97.0" text="Waiting Line">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                    </children>
+                </GridPane>
+            </content>
+        </ScrollPane>
+    </GridPane>
+</HBox>

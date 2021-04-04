@@ -1,0 +1,91 @@
+Time 0
+Client{ID=2, tArrival=2, tService=2}
+Client{ID=8, tArrival=2, tService=2}
+Client{ID=10, tArrival=2, tService=2}
+Client{ID=1, tArrival=3, tService=2}
+Client{ID=7, tArrival=3, tService=2}
+Client{ID=9, tArrival=3, tService=2}
+Client{ID=3, tArrival=4, tService=2}
+Client{ID=4, tArrival=4, tService=2}
+Client{ID=5, tArrival=4, tService=2}
+Client{ID=6, tArrival=4, tService=2}
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+------->------->
+Time 1
+Client{ID=2, tArrival=2, tService=2}
+Client{ID=8, tArrival=2, tService=2}
+Client{ID=10, tArrival=2, tService=2}
+Client{ID=1, tArrival=3, tService=2}
+Client{ID=7, tArrival=3, tService=2}
+Client{ID=9, tArrival=3, tService=2}
+Client{ID=3, tArrival=4, tService=2}
+Client{ID=4, tArrival=4, tService=2}
+Client{ID=5, tArrival=4, tService=2}
+Client{ID=6, tArrival=4, tService=2}
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+------->------->
+Time 2
+Client{ID=1, tArrival=3, tService=2}
+Client{ID=7, tArrival=3, tService=2}
+Client{ID=9, tArrival=3, tService=2}
+Client{ID=3, tArrival=4, tService=2}
+Client{ID=4, tArrival=4, tService=2}
+Client{ID=5, tArrival=4, tService=2}
+Client{ID=6, tArrival=4, tService=2}
+Queue{ID=1, clients=[Client{ID=2, tArrival=2, tService=2}], waitingPeriod=2}
+Queue{ID=2, clients=[Client{ID=8, tArrival=2, tService=2}], waitingPeriod=2}
+Queue{ID=3, clients=[Client{ID=10, tArrival=2, tService=2}], waitingPeriod=2}
+Queue{ID=4, clients=[], waitingPeriod=0}
+------->------->
+Time 3
+Client{ID=3, tArrival=4, tService=2}
+Client{ID=4, tArrival=4, tService=2}
+Client{ID=5, tArrival=4, tService=2}
+Client{ID=6, tArrival=4, tService=2}
+Queue{ID=1, clients=[Client{ID=2, tArrival=2, tService=1}, Client{ID=7, tArrival=3, tService=2}], waitingPeriod=3}
+Queue{ID=2, clients=[Client{ID=8, tArrival=2, tService=1}, Client{ID=9, tArrival=3, tService=2}], waitingPeriod=3}
+Queue{ID=3, clients=[Client{ID=10, tArrival=2, tService=1}], waitingPeriod=1}
+Queue{ID=4, clients=[Client{ID=1, tArrival=3, tService=2}], waitingPeriod=2}
+------->------->
+Time 4
+Queue{ID=1, clients=[Client{ID=7, tArrival=3, tService=2}, Client{ID=5, tArrival=4, tService=2}], waitingPeriod=4}
+Queue{ID=2, clients=[Client{ID=9, tArrival=3, tService=2}, Client{ID=6, tArrival=4, tService=2}], waitingPeriod=4}
+Queue{ID=3, clients=[Client{ID=3, tArrival=4, tService=2}], waitingPeriod=2}
+Queue{ID=4, clients=[Client{ID=1, tArrival=3, tService=1}, Client{ID=4, tArrival=4, tService=2}], waitingPeriod=3}
+------->------->
+Time 5
+Queue{ID=1, clients=[Client{ID=7, tArrival=3, tService=1}, Client{ID=5, tArrival=4, tService=2}], waitingPeriod=3}
+Queue{ID=2, clients=[Client{ID=9, tArrival=3, tService=1}, Client{ID=6, tArrival=4, tService=2}], waitingPeriod=3}
+Queue{ID=3, clients=[Client{ID=3, tArrival=4, tService=1}], waitingPeriod=1}
+Queue{ID=4, clients=[Client{ID=4, tArrival=4, tService=2}], waitingPeriod=2}
+------->------->
+Time 6
+Queue{ID=1, clients=[Client{ID=5, tArrival=4, tService=2}], waitingPeriod=2}
+Queue{ID=2, clients=[Client{ID=6, tArrival=4, tService=2}], waitingPeriod=2}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[Client{ID=4, tArrival=4, tService=1}], waitingPeriod=1}
+------->------->
+Time 7
+Queue{ID=1, clients=[Client{ID=5, tArrival=4, tService=1}], waitingPeriod=1}
+Queue{ID=2, clients=[Client{ID=6, tArrival=4, tService=1}], waitingPeriod=1}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+------->------->
+Time 8
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+------->------->
+Time 9
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+------->------->

@@ -1,0 +1,55 @@
+/*setting the background image*/
+#mainProgramme {
+    -fx-background-image: url("mobile-app-background-premgurusamy.jpg");
+}
+
+/*setting the title look*/
+#titleText {
+    -fx-font-size: 50px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: coral;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+}
+
+/*setting the buttons look*/
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#DF1111, #DF1111);
+}
+
+#stopButton, #clearButton, #startButton {
+
+    -fx-background-radius: 75em;
+    -fx-min-width: 75px;
+    -fx-min-height: 75px;
+    -fx-max-width: 75px;
+    -fx-max-height: 75px;
+}
+
+#clearButton {
+
+    -fx-background-color: linear-gradient(#59FF33, #2A5058);
+}
+
+#startButton {
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+}
+
+#initButton {
+    -fx-background-color: linear-gradient(#8372EF, #020108);
+}
+
+/*setting label style*/
+#waitingLineLabel {
+
+    -fx-background-color: #80ff00;
+    -fx-font-family: cursive;
+    -fx-fill: #50ffad;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+}
+
+#resultTextField{
+    -fx-font-size: 15px;
+}
