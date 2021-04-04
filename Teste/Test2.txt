@@ -1,0 +1,1397 @@
+Time 0
+Client{ID=41, tArrival=2, tService=6}
+Client{ID=10, tArrival=3, tService=1}
+Client{ID=33, tArrival=3, tService=3}
+Client{ID=45, tArrival=4, tService=3}
+Client{ID=46, tArrival=4, tService=6}
+Client{ID=36, tArrival=5, tService=5}
+Client{ID=40, tArrival=5, tService=5}
+Client{ID=31, tArrival=6, tService=4}
+Client{ID=14, tArrival=7, tService=3}
+Client{ID=24, tArrival=8, tService=4}
+Client{ID=39, tArrival=9, tService=5}
+Client{ID=49, tArrival=9, tService=3}
+Client{ID=16, tArrival=10, tService=6}
+Client{ID=29, tArrival=10, tService=3}
+Client{ID=38, tArrival=10, tService=6}
+Client{ID=12, tArrival=11, tService=2}
+Client{ID=22, tArrival=11, tService=1}
+Client{ID=32, tArrival=12, tService=5}
+Client{ID=26, tArrival=13, tService=3}
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 1
+Client{ID=41, tArrival=2, tService=6}
+Client{ID=10, tArrival=3, tService=1}
+Client{ID=33, tArrival=3, tService=3}
+Client{ID=45, tArrival=4, tService=3}
+Client{ID=46, tArrival=4, tService=6}
+Client{ID=36, tArrival=5, tService=5}
+Client{ID=40, tArrival=5, tService=5}
+Client{ID=31, tArrival=6, tService=4}
+Client{ID=14, tArrival=7, tService=3}
+Client{ID=24, tArrival=8, tService=4}
+Client{ID=39, tArrival=9, tService=5}
+Client{ID=49, tArrival=9, tService=3}
+Client{ID=16, tArrival=10, tService=6}
+Client{ID=29, tArrival=10, tService=3}
+Client{ID=38, tArrival=10, tService=6}
+Client{ID=12, tArrival=11, tService=2}
+Client{ID=22, tArrival=11, tService=1}
+Client{ID=32, tArrival=12, tService=5}
+Client{ID=26, tArrival=13, tService=3}
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 2
+Client{ID=10, tArrival=3, tService=1}
+Client{ID=33, tArrival=3, tService=3}
+Client{ID=45, tArrival=4, tService=3}
+Client{ID=46, tArrival=4, tService=6}
+Client{ID=36, tArrival=5, tService=5}
+Client{ID=40, tArrival=5, tService=5}
+Client{ID=31, tArrival=6, tService=4}
+Client{ID=14, tArrival=7, tService=3}
+Client{ID=24, tArrival=8, tService=4}
+Client{ID=39, tArrival=9, tService=5}
+Client{ID=49, tArrival=9, tService=3}
+Client{ID=16, tArrival=10, tService=6}
+Client{ID=29, tArrival=10, tService=3}
+Client{ID=38, tArrival=10, tService=6}
+Client{ID=12, tArrival=11, tService=2}
+Client{ID=22, tArrival=11, tService=1}
+Client{ID=32, tArrival=12, tService=5}
+Client{ID=26, tArrival=13, tService=3}
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=41, tArrival=2, tService=6}], waitingPeriod=6}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 3
+Client{ID=45, tArrival=4, tService=3}
+Client{ID=46, tArrival=4, tService=6}
+Client{ID=36, tArrival=5, tService=5}
+Client{ID=40, tArrival=5, tService=5}
+Client{ID=31, tArrival=6, tService=4}
+Client{ID=14, tArrival=7, tService=3}
+Client{ID=24, tArrival=8, tService=4}
+Client{ID=39, tArrival=9, tService=5}
+Client{ID=49, tArrival=9, tService=3}
+Client{ID=16, tArrival=10, tService=6}
+Client{ID=29, tArrival=10, tService=3}
+Client{ID=38, tArrival=10, tService=6}
+Client{ID=12, tArrival=11, tService=2}
+Client{ID=22, tArrival=11, tService=1}
+Client{ID=32, tArrival=12, tService=5}
+Client{ID=26, tArrival=13, tService=3}
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=41, tArrival=2, tService=5}], waitingPeriod=5}
+Queue{ID=2, clients=[Client{ID=10, tArrival=3, tService=1}], waitingPeriod=1}
+Queue{ID=3, clients=[Client{ID=33, tArrival=3, tService=3}], waitingPeriod=3}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 4
+Client{ID=36, tArrival=5, tService=5}
+Client{ID=40, tArrival=5, tService=5}
+Client{ID=31, tArrival=6, tService=4}
+Client{ID=14, tArrival=7, tService=3}
+Client{ID=24, tArrival=8, tService=4}
+Client{ID=39, tArrival=9, tService=5}
+Client{ID=49, tArrival=9, tService=3}
+Client{ID=16, tArrival=10, tService=6}
+Client{ID=29, tArrival=10, tService=3}
+Client{ID=38, tArrival=10, tService=6}
+Client{ID=12, tArrival=11, tService=2}
+Client{ID=22, tArrival=11, tService=1}
+Client{ID=32, tArrival=12, tService=5}
+Client{ID=26, tArrival=13, tService=3}
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=41, tArrival=2, tService=4}], waitingPeriod=4}
+Queue{ID=2, clients=[Client{ID=45, tArrival=4, tService=3}], waitingPeriod=3}
+Queue{ID=3, clients=[Client{ID=33, tArrival=3, tService=2}], waitingPeriod=2}
+Queue{ID=4, clients=[Client{ID=46, tArrival=4, tService=6}], waitingPeriod=6}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 5
+Client{ID=31, tArrival=6, tService=4}
+Client{ID=14, tArrival=7, tService=3}
+Client{ID=24, tArrival=8, tService=4}
+Client{ID=39, tArrival=9, tService=5}
+Client{ID=49, tArrival=9, tService=3}
+Client{ID=16, tArrival=10, tService=6}
+Client{ID=29, tArrival=10, tService=3}
+Client{ID=38, tArrival=10, tService=6}
+Client{ID=12, tArrival=11, tService=2}
+Client{ID=22, tArrival=11, tService=1}
+Client{ID=32, tArrival=12, tService=5}
+Client{ID=26, tArrival=13, tService=3}
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=41, tArrival=2, tService=3}], waitingPeriod=3}
+Queue{ID=2, clients=[Client{ID=45, tArrival=4, tService=3}], waitingPeriod=3}
+Queue{ID=3, clients=[Client{ID=33, tArrival=3, tService=1}, Client{ID=40, tArrival=5, tService=5}], waitingPeriod=6}
+Queue{ID=4, clients=[Client{ID=46, tArrival=4, tService=6}], waitingPeriod=6}
+Queue{ID=5, clients=[Client{ID=36, tArrival=5, tService=5}], waitingPeriod=5}
+------->------->
+Time 6
+Client{ID=14, tArrival=7, tService=3}
+Client{ID=24, tArrival=8, tService=4}
+Client{ID=39, tArrival=9, tService=5}
+Client{ID=49, tArrival=9, tService=3}
+Client{ID=16, tArrival=10, tService=6}
+Client{ID=29, tArrival=10, tService=3}
+Client{ID=38, tArrival=10, tService=6}
+Client{ID=12, tArrival=11, tService=2}
+Client{ID=22, tArrival=11, tService=1}
+Client{ID=32, tArrival=12, tService=5}
+Client{ID=26, tArrival=13, tService=3}
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=41, tArrival=2, tService=2}], waitingPeriod=2}
+Queue{ID=2, clients=[Client{ID=45, tArrival=4, tService=1}, Client{ID=31, tArrival=6, tService=4}], waitingPeriod=5}
+Queue{ID=3, clients=[Client{ID=40, tArrival=5, tService=5}], waitingPeriod=5}
+Queue{ID=4, clients=[Client{ID=46, tArrival=4, tService=4}], waitingPeriod=4}
+Queue{ID=5, clients=[Client{ID=36, tArrival=5, tService=4}], waitingPeriod=4}
+------->------->
+Time 7
+Client{ID=24, tArrival=8, tService=4}
+Client{ID=39, tArrival=9, tService=5}
+Client{ID=49, tArrival=9, tService=3}
+Client{ID=16, tArrival=10, tService=6}
+Client{ID=29, tArrival=10, tService=3}
+Client{ID=38, tArrival=10, tService=6}
+Client{ID=12, tArrival=11, tService=2}
+Client{ID=22, tArrival=11, tService=1}
+Client{ID=32, tArrival=12, tService=5}
+Client{ID=26, tArrival=13, tService=3}
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=41, tArrival=2, tService=1}, Client{ID=14, tArrival=7, tService=3}], waitingPeriod=4}
+Queue{ID=2, clients=[Client{ID=31, tArrival=6, tService=4}], waitingPeriod=4}
+Queue{ID=3, clients=[Client{ID=40, tArrival=5, tService=4}], waitingPeriod=4}
+Queue{ID=4, clients=[Client{ID=46, tArrival=4, tService=3}], waitingPeriod=3}
+Queue{ID=5, clients=[Client{ID=36, tArrival=5, tService=3}], waitingPeriod=3}
+------->------->
+Time 8
+Client{ID=39, tArrival=9, tService=5}
+Client{ID=49, tArrival=9, tService=3}
+Client{ID=16, tArrival=10, tService=6}
+Client{ID=29, tArrival=10, tService=3}
+Client{ID=38, tArrival=10, tService=6}
+Client{ID=12, tArrival=11, tService=2}
+Client{ID=22, tArrival=11, tService=1}
+Client{ID=32, tArrival=12, tService=5}
+Client{ID=26, tArrival=13, tService=3}
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=14, tArrival=7, tService=3}], waitingPeriod=3}
+Queue{ID=2, clients=[Client{ID=31, tArrival=6, tService=3}], waitingPeriod=3}
+Queue{ID=3, clients=[Client{ID=40, tArrival=5, tService=3}], waitingPeriod=3}
+Queue{ID=4, clients=[Client{ID=46, tArrival=4, tService=2}, Client{ID=24, tArrival=8, tService=4}], waitingPeriod=6}
+Queue{ID=5, clients=[Client{ID=36, tArrival=5, tService=2}], waitingPeriod=2}
+------->------->
+Time 9
+Client{ID=16, tArrival=10, tService=6}
+Client{ID=29, tArrival=10, tService=3}
+Client{ID=38, tArrival=10, tService=6}
+Client{ID=12, tArrival=11, tService=2}
+Client{ID=22, tArrival=11, tService=1}
+Client{ID=32, tArrival=12, tService=5}
+Client{ID=26, tArrival=13, tService=3}
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=14, tArrival=7, tService=2}, Client{ID=49, tArrival=9, tService=3}], waitingPeriod=5}
+Queue{ID=2, clients=[Client{ID=31, tArrival=6, tService=2}], waitingPeriod=2}
+Queue{ID=3, clients=[Client{ID=40, tArrival=5, tService=2}], waitingPeriod=2}
+Queue{ID=4, clients=[Client{ID=46, tArrival=4, tService=1}, Client{ID=24, tArrival=8, tService=4}], waitingPeriod=5}
+Queue{ID=5, clients=[Client{ID=36, tArrival=5, tService=1}, Client{ID=39, tArrival=9, tService=5}], waitingPeriod=6}
+------->------->
+Time 10
+Client{ID=12, tArrival=11, tService=2}
+Client{ID=22, tArrival=11, tService=1}
+Client{ID=32, tArrival=12, tService=5}
+Client{ID=26, tArrival=13, tService=3}
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=14, tArrival=7, tService=1}, Client{ID=49, tArrival=9, tService=3}, Client{ID=38, tArrival=10, tService=6}], waitingPeriod=10}
+Queue{ID=2, clients=[Client{ID=31, tArrival=6, tService=1}, Client{ID=16, tArrival=10, tService=6}], waitingPeriod=7}
+Queue{ID=3, clients=[Client{ID=40, tArrival=5, tService=1}, Client{ID=29, tArrival=10, tService=3}], waitingPeriod=4}
+Queue{ID=4, clients=[Client{ID=24, tArrival=8, tService=4}], waitingPeriod=4}
+Queue{ID=5, clients=[Client{ID=39, tArrival=9, tService=5}], waitingPeriod=5}
+------->------->
+Time 11
+Client{ID=32, tArrival=12, tService=5}
+Client{ID=26, tArrival=13, tService=3}
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=49, tArrival=9, tService=3}, Client{ID=38, tArrival=10, tService=6}], waitingPeriod=9}
+Queue{ID=2, clients=[Client{ID=16, tArrival=10, tService=6}], waitingPeriod=6}
+Queue{ID=3, clients=[Client{ID=29, tArrival=10, tService=3}, Client{ID=12, tArrival=11, tService=2}], waitingPeriod=5}
+Queue{ID=4, clients=[Client{ID=24, tArrival=8, tService=3}, Client{ID=22, tArrival=11, tService=1}], waitingPeriod=4}
+Queue{ID=5, clients=[Client{ID=39, tArrival=9, tService=4}], waitingPeriod=4}
+------->------->
+Time 12
+Client{ID=26, tArrival=13, tService=3}
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=49, tArrival=9, tService=2}, Client{ID=38, tArrival=10, tService=6}], waitingPeriod=8}
+Queue{ID=2, clients=[Client{ID=16, tArrival=10, tService=5}], waitingPeriod=5}
+Queue{ID=3, clients=[Client{ID=29, tArrival=10, tService=2}, Client{ID=12, tArrival=11, tService=2}], waitingPeriod=4}
+Queue{ID=4, clients=[Client{ID=24, tArrival=8, tService=2}, Client{ID=22, tArrival=11, tService=1}, Client{ID=32, tArrival=12, tService=5}], waitingPeriod=8}
+Queue{ID=5, clients=[Client{ID=39, tArrival=9, tService=3}], waitingPeriod=3}
+------->------->
+Time 13
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=49, tArrival=9, tService=1}, Client{ID=38, tArrival=10, tService=6}], waitingPeriod=7}
+Queue{ID=2, clients=[Client{ID=16, tArrival=10, tService=4}], waitingPeriod=4}
+Queue{ID=3, clients=[Client{ID=29, tArrival=10, tService=1}, Client{ID=12, tArrival=11, tService=2}], waitingPeriod=3}
+Queue{ID=4, clients=[Client{ID=24, tArrival=8, tService=1}, Client{ID=22, tArrival=11, tService=1}, Client{ID=32, tArrival=12, tService=5}], waitingPeriod=7}
+Queue{ID=5, clients=[Client{ID=39, tArrival=9, tService=2}, Client{ID=26, tArrival=13, tService=3}], waitingPeriod=5}
+------->------->
+Time 14
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=38, tArrival=10, tService=6}], waitingPeriod=6}
+Queue{ID=2, clients=[Client{ID=16, tArrival=10, tService=3}], waitingPeriod=3}
+Queue{ID=3, clients=[Client{ID=12, tArrival=11, tService=2}], waitingPeriod=2}
+Queue{ID=4, clients=[Client{ID=22, tArrival=11, tService=1}, Client{ID=32, tArrival=12, tService=5}], waitingPeriod=6}
+Queue{ID=5, clients=[Client{ID=39, tArrival=9, tService=1}, Client{ID=26, tArrival=13, tService=3}], waitingPeriod=4}
+------->------->
+Time 15
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=38, tArrival=10, tService=5}], waitingPeriod=5}
+Queue{ID=2, clients=[Client{ID=16, tArrival=10, tService=2}], waitingPeriod=2}
+Queue{ID=3, clients=[Client{ID=12, tArrival=11, tService=1}], waitingPeriod=1}
+Queue{ID=4, clients=[Client{ID=32, tArrival=12, tService=5}], waitingPeriod=5}
+Queue{ID=5, clients=[Client{ID=26, tArrival=13, tService=3}], waitingPeriod=3}
+------->------->
+Time 16
+Client{ID=20, tArrival=17, tService=5}
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=38, tArrival=10, tService=4}], waitingPeriod=4}
+Queue{ID=2, clients=[Client{ID=16, tArrival=10, tService=1}], waitingPeriod=1}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[Client{ID=32, tArrival=12, tService=4}], waitingPeriod=4}
+Queue{ID=5, clients=[Client{ID=26, tArrival=13, tService=2}], waitingPeriod=2}
+------->------->
+Time 17
+Client{ID=2, tArrival=18, tService=2}
+Client{ID=3, tArrival=18, tService=1}
+Client{ID=27, tArrival=18, tService=3}
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=38, tArrival=10, tService=3}], waitingPeriod=3}
+Queue{ID=2, clients=[Client{ID=20, tArrival=17, tService=5}], waitingPeriod=5}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[Client{ID=32, tArrival=12, tService=3}], waitingPeriod=3}
+Queue{ID=5, clients=[Client{ID=26, tArrival=13, tService=1}], waitingPeriod=1}
+------->------->
+Time 18
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=38, tArrival=10, tService=2}], waitingPeriod=2}
+Queue{ID=2, clients=[Client{ID=20, tArrival=17, tService=4}], waitingPeriod=4}
+Queue{ID=3, clients=[Client{ID=2, tArrival=18, tService=2}], waitingPeriod=2}
+Queue{ID=4, clients=[Client{ID=32, tArrival=12, tService=2}], waitingPeriod=2}
+Queue{ID=5, clients=[Client{ID=3, tArrival=18, tService=1}, Client{ID=27, tArrival=18, tService=3}], waitingPeriod=4}
+------->------->
+Time 19
+Client{ID=19, tArrival=20, tService=4}
+Client{ID=28, tArrival=20, tService=4}
+Client{ID=34, tArrival=20, tService=2}
+Client{ID=50, tArrival=20, tService=1}
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=38, tArrival=10, tService=1}], waitingPeriod=1}
+Queue{ID=2, clients=[Client{ID=20, tArrival=17, tService=3}], waitingPeriod=3}
+Queue{ID=3, clients=[Client{ID=2, tArrival=18, tService=1}], waitingPeriod=1}
+Queue{ID=4, clients=[Client{ID=32, tArrival=12, tService=1}], waitingPeriod=1}
+Queue{ID=5, clients=[Client{ID=27, tArrival=18, tService=3}], waitingPeriod=3}
+------->------->
+Time 20
+Client{ID=9, tArrival=21, tService=2}
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=19, tArrival=20, tService=4}], waitingPeriod=4}
+Queue{ID=2, clients=[Client{ID=20, tArrival=17, tService=2}, Client{ID=50, tArrival=20, tService=1}], waitingPeriod=3}
+Queue{ID=3, clients=[Client{ID=28, tArrival=20, tService=4}], waitingPeriod=4}
+Queue{ID=4, clients=[Client{ID=34, tArrival=20, tService=2}], waitingPeriod=2}
+Queue{ID=5, clients=[Client{ID=27, tArrival=18, tService=2}], waitingPeriod=2}
+------->------->
+Time 21
+Client{ID=43, tArrival=22, tService=6}
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=19, tArrival=20, tService=3}], waitingPeriod=3}
+Queue{ID=2, clients=[Client{ID=20, tArrival=17, tService=1}, Client{ID=50, tArrival=20, tService=1}], waitingPeriod=2}
+Queue{ID=3, clients=[Client{ID=28, tArrival=20, tService=3}], waitingPeriod=3}
+Queue{ID=4, clients=[Client{ID=34, tArrival=20, tService=1}, Client{ID=9, tArrival=21, tService=2}], waitingPeriod=3}
+Queue{ID=5, clients=[Client{ID=27, tArrival=18, tService=1}], waitingPeriod=1}
+------->------->
+Time 22
+Client{ID=23, tArrival=23, tService=2}
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=19, tArrival=20, tService=2}], waitingPeriod=2}
+Queue{ID=2, clients=[Client{ID=50, tArrival=20, tService=1}], waitingPeriod=1}
+Queue{ID=3, clients=[Client{ID=28, tArrival=20, tService=2}], waitingPeriod=2}
+Queue{ID=4, clients=[Client{ID=9, tArrival=21, tService=2}], waitingPeriod=2}
+Queue{ID=5, clients=[Client{ID=43, tArrival=22, tService=6}], waitingPeriod=6}
+------->------->
+Time 23
+Client{ID=44, tArrival=24, tService=6}
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=19, tArrival=20, tService=1}], waitingPeriod=1}
+Queue{ID=2, clients=[Client{ID=23, tArrival=23, tService=2}], waitingPeriod=2}
+Queue{ID=3, clients=[Client{ID=28, tArrival=20, tService=1}], waitingPeriod=1}
+Queue{ID=4, clients=[Client{ID=9, tArrival=21, tService=1}], waitingPeriod=1}
+Queue{ID=5, clients=[Client{ID=43, tArrival=22, tService=5}], waitingPeriod=5}
+------->------->
+Time 24
+Client{ID=11, tArrival=25, tService=2}
+Client{ID=48, tArrival=25, tService=4}
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=44, tArrival=24, tService=6}], waitingPeriod=6}
+Queue{ID=2, clients=[Client{ID=23, tArrival=23, tService=1}], waitingPeriod=1}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[Client{ID=43, tArrival=22, tService=4}], waitingPeriod=4}
+------->------->
+Time 25
+Client{ID=13, tArrival=26, tService=4}
+Client{ID=21, tArrival=26, tService=3}
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=44, tArrival=24, tService=5}], waitingPeriod=5}
+Queue{ID=2, clients=[Client{ID=11, tArrival=25, tService=2}], waitingPeriod=2}
+Queue{ID=3, clients=[Client{ID=48, tArrival=25, tService=4}], waitingPeriod=4}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[Client{ID=43, tArrival=22, tService=3}], waitingPeriod=3}
+------->------->
+Time 26
+Client{ID=15, tArrival=27, tService=4}
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=44, tArrival=24, tService=4}], waitingPeriod=4}
+Queue{ID=2, clients=[Client{ID=11, tArrival=25, tService=1}, Client{ID=21, tArrival=26, tService=3}], waitingPeriod=4}
+Queue{ID=3, clients=[Client{ID=48, tArrival=25, tService=3}], waitingPeriod=3}
+Queue{ID=4, clients=[Client{ID=13, tArrival=26, tService=4}], waitingPeriod=4}
+Queue{ID=5, clients=[Client{ID=43, tArrival=22, tService=2}], waitingPeriod=2}
+------->------->
+Time 27
+Client{ID=47, tArrival=28, tService=2}
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=44, tArrival=24, tService=3}], waitingPeriod=3}
+Queue{ID=2, clients=[Client{ID=21, tArrival=26, tService=3}], waitingPeriod=3}
+Queue{ID=3, clients=[Client{ID=48, tArrival=25, tService=2}], waitingPeriod=2}
+Queue{ID=4, clients=[Client{ID=13, tArrival=26, tService=3}], waitingPeriod=3}
+Queue{ID=5, clients=[Client{ID=43, tArrival=22, tService=1}, Client{ID=15, tArrival=27, tService=4}], waitingPeriod=5}
+------->------->
+Time 28
+Client{ID=8, tArrival=29, tService=3}
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=44, tArrival=24, tService=2}], waitingPeriod=2}
+Queue{ID=2, clients=[Client{ID=21, tArrival=26, tService=2}], waitingPeriod=2}
+Queue{ID=3, clients=[Client{ID=48, tArrival=25, tService=1}, Client{ID=47, tArrival=28, tService=2}], waitingPeriod=3}
+Queue{ID=4, clients=[Client{ID=13, tArrival=26, tService=2}], waitingPeriod=2}
+Queue{ID=5, clients=[Client{ID=15, tArrival=27, tService=4}], waitingPeriod=4}
+------->------->
+Time 29
+Client{ID=18, tArrival=30, tService=6}
+Client{ID=30, tArrival=30, tService=5}
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=44, tArrival=24, tService=1}, Client{ID=8, tArrival=29, tService=3}], waitingPeriod=4}
+Queue{ID=2, clients=[Client{ID=21, tArrival=26, tService=1}], waitingPeriod=1}
+Queue{ID=3, clients=[Client{ID=47, tArrival=28, tService=2}], waitingPeriod=2}
+Queue{ID=4, clients=[Client{ID=13, tArrival=26, tService=1}], waitingPeriod=1}
+Queue{ID=5, clients=[Client{ID=15, tArrival=27, tService=3}], waitingPeriod=3}
+------->------->
+Time 30
+Client{ID=37, tArrival=31, tService=1}
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=8, tArrival=29, tService=3}], waitingPeriod=3}
+Queue{ID=2, clients=[Client{ID=18, tArrival=30, tService=6}], waitingPeriod=6}
+Queue{ID=3, clients=[Client{ID=47, tArrival=28, tService=1}], waitingPeriod=1}
+Queue{ID=4, clients=[Client{ID=30, tArrival=30, tService=5}], waitingPeriod=5}
+Queue{ID=5, clients=[Client{ID=15, tArrival=27, tService=2}], waitingPeriod=2}
+------->------->
+Time 31
+Client{ID=6, tArrival=32, tService=1}
+Client{ID=25, tArrival=32, tService=3}
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=8, tArrival=29, tService=2}], waitingPeriod=2}
+Queue{ID=2, clients=[Client{ID=18, tArrival=30, tService=5}], waitingPeriod=5}
+Queue{ID=3, clients=[Client{ID=37, tArrival=31, tService=1}], waitingPeriod=1}
+Queue{ID=4, clients=[Client{ID=30, tArrival=30, tService=4}], waitingPeriod=4}
+Queue{ID=5, clients=[Client{ID=15, tArrival=27, tService=1}], waitingPeriod=1}
+------->------->
+Time 32
+Client{ID=1, tArrival=33, tService=3}
+Client{ID=7, tArrival=33, tService=4}
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=8, tArrival=29, tService=1}], waitingPeriod=1}
+Queue{ID=2, clients=[Client{ID=18, tArrival=30, tService=4}], waitingPeriod=4}
+Queue{ID=3, clients=[Client{ID=6, tArrival=32, tService=1}], waitingPeriod=1}
+Queue{ID=4, clients=[Client{ID=30, tArrival=30, tService=3}], waitingPeriod=3}
+Queue{ID=5, clients=[Client{ID=25, tArrival=32, tService=3}], waitingPeriod=3}
+------->------->
+Time 33
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=1, tArrival=33, tService=3}], waitingPeriod=3}
+Queue{ID=2, clients=[Client{ID=18, tArrival=30, tService=3}], waitingPeriod=3}
+Queue{ID=3, clients=[Client{ID=7, tArrival=33, tService=4}], waitingPeriod=4}
+Queue{ID=4, clients=[Client{ID=30, tArrival=30, tService=2}], waitingPeriod=2}
+Queue{ID=5, clients=[Client{ID=25, tArrival=32, tService=2}], waitingPeriod=2}
+------->------->
+Time 34
+Client{ID=5, tArrival=35, tService=6}
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=1, tArrival=33, tService=2}], waitingPeriod=2}
+Queue{ID=2, clients=[Client{ID=18, tArrival=30, tService=2}], waitingPeriod=2}
+Queue{ID=3, clients=[Client{ID=7, tArrival=33, tService=3}], waitingPeriod=3}
+Queue{ID=4, clients=[Client{ID=30, tArrival=30, tService=1}], waitingPeriod=1}
+Queue{ID=5, clients=[Client{ID=25, tArrival=32, tService=1}], waitingPeriod=1}
+------->------->
+Time 35
+Client{ID=4, tArrival=36, tService=4}
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=1, tArrival=33, tService=1}], waitingPeriod=1}
+Queue{ID=2, clients=[Client{ID=18, tArrival=30, tService=1}], waitingPeriod=1}
+Queue{ID=3, clients=[Client{ID=7, tArrival=33, tService=2}], waitingPeriod=2}
+Queue{ID=4, clients=[Client{ID=5, tArrival=35, tService=6}], waitingPeriod=6}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 36
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=4, tArrival=36, tService=4}], waitingPeriod=4}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[Client{ID=7, tArrival=33, tService=1}], waitingPeriod=1}
+Queue{ID=4, clients=[Client{ID=5, tArrival=35, tService=5}], waitingPeriod=5}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 37
+Client{ID=35, tArrival=38, tService=2}
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=4, tArrival=36, tService=3}], waitingPeriod=3}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[Client{ID=5, tArrival=35, tService=4}], waitingPeriod=4}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 38
+Client{ID=17, tArrival=39, tService=3}
+Client{ID=42, tArrival=39, tService=4}
+Queue{ID=1, clients=[Client{ID=4, tArrival=36, tService=2}], waitingPeriod=2}
+Queue{ID=2, clients=[Client{ID=35, tArrival=38, tService=2}], waitingPeriod=2}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[Client{ID=5, tArrival=35, tService=3}], waitingPeriod=3}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 39
+Queue{ID=1, clients=[Client{ID=4, tArrival=36, tService=1}], waitingPeriod=1}
+Queue{ID=2, clients=[Client{ID=35, tArrival=38, tService=1}], waitingPeriod=1}
+Queue{ID=3, clients=[Client{ID=17, tArrival=39, tService=3}], waitingPeriod=3}
+Queue{ID=4, clients=[Client{ID=5, tArrival=35, tService=2}], waitingPeriod=2}
+Queue{ID=5, clients=[Client{ID=42, tArrival=39, tService=4}], waitingPeriod=4}
+------->------->
+Time 40
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[Client{ID=17, tArrival=39, tService=2}], waitingPeriod=2}
+Queue{ID=4, clients=[Client{ID=5, tArrival=35, tService=1}], waitingPeriod=1}
+Queue{ID=5, clients=[Client{ID=42, tArrival=39, tService=3}], waitingPeriod=3}
+------->------->
+Time 41
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[Client{ID=17, tArrival=39, tService=1}], waitingPeriod=1}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[Client{ID=42, tArrival=39, tService=2}], waitingPeriod=2}
+------->------->
+Time 42
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[Client{ID=42, tArrival=39, tService=1}], waitingPeriod=1}
+------->------->
+Time 43
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 44
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 45
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 46
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 47
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 48
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 49
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 50
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 51
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 52
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 53
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 54
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 55
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 56
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 57
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 58
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
+Time 59
+Queue{ID=1, clients=[], waitingPeriod=0}
+Queue{ID=2, clients=[], waitingPeriod=0}
+Queue{ID=3, clients=[], waitingPeriod=0}
+Queue{ID=4, clients=[], waitingPeriod=0}
+Queue{ID=5, clients=[], waitingPeriod=0}
+------->------->
